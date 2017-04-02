@@ -1,0 +1,324 @@
+body, html {
+	padding: 0;
+	margin: 0;
+	font-family: 'Slabo 27px', serif;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+header {
+	width:100%;
+	height: 666px;
+	position: relative;
+	background-image: url(../images/main-wallpaper.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.intro {
+	position: absolute;
+	top: 150px;
+	left: 100px;
+}
+.intro p {
+	color: #FFF;
+	font-size: 30px;
+	margin-right: 10px;
+	text-indent: 62px;
+	margin-bottom: 38px;
+}
+h1 {
+	margin: 0;
+	font-size: 70px;
+	color: #FFF;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 20px;
+}
+.header-btn {
+	width: 150px;
+	height: 50px;
+	font-weight: 100px;
+	border:1px solid #FFF;
+	color: #FFF;
+	background-color: transparent;
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	right: 100px;
+}
+.header-btn:hover {
+	background-color: #42f4e8;
+	transition: 2s;
+}
+.about-us {
+	text-align: center;
+	 margin-top: 60px;
+}
+.about-us p {
+	font-size: 20px;
+}
+.icon {
+	display: inline-block;
+	margin:0 30px;
+}
+.icons .fa {
+	font-size: 90px;
+	margin:0 100px;
+	text-align: center;
+}
+.we-specialize  h3 {
+	text-indent: 20px;
+}
+.icons {
+	text-align: center;
+	margin-top: 30px;
+}
+#sideimg {
+	float: left;
+	margin: 20px 30px;
+	width: 250px;
+	height: 170px;
+}
+.information p:nth-child(2) {
+	font-size: 23px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #000;
+}
+.information {
+	margin-top: 60px;
+}
+.services {
+	margin-top: 40px;
+}
+.information p {
+	font-size: 20px;
+	color: #888;
+}	
+.steps > p {
+	font-size: 25px;
+	text-align: center;
+}
+.steps  {
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 60px;
+}
+.block {
+	display: inline-block;
+	text-align: center;
+	margin: 0 100px;
+}
+.block p {
+	font-size: 20px;
+	font-weight: bold;
+}
+.steps i {
+	font-size: 90px;
+}
+.write-letter i:hover {
+	color: #4286f4;
+	transition: 2s;
+}
+.recieve-letter i:hover {
+	color: #ad2c18;
+	transition: 2s;
+}
+.making-letter i:hover {
+	color: #1916af;
+	transition: 2s;
+}
+.partners p {
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+	font-size: 25px;
+}
+.partners {    
+    margin-top: 50px;
+}
+.partners img {
+	margin: 0 60px;
+}
+.subscribe {
+	background-image: url(../images/inner-img.jpg);
+	padding-top: 180px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom left;
+}
+.subscribe form {
+	margin: 0 auto;
+	width: 366px;
+}
+.subscribe input[type="email"] {
+	width: 250px;
+	height: 20px;
+	padding: 4px;
+}
+.subscribe input[type="submit"] {
+	border: 0;
+	width: 100px;
+	height: 30px;
+	background-color: lightblue ;
+	color: #000;
+	font-weight: bold;
+	font-style: italic;
+	border: 1px solid #FFF;
+}
+.subscribe input[type="submit"]:hover {
+	background-color: #000;
+	color: #FFF;
+	transition: 2s;
+}
+.input-data {
+	margin-bottom: 50px;
+}
+.input-data h2 {
+	text-align: center;
+}
+.input-data form {
+	text-align: center;
+}
+.input-data input[type="email"] {
+	width: 368px;
+}
+.input-data input[type="text"] {
+	width: 180px;	
+}
+.input-data input[type="submit"] {
+	width: 150px;
+	height: 35px;
+	border: 0;
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+	background-color: lightblue;
+}
+.input-data input[type="submit"]:hover {
+	background-color: #000;
+	color: #FFF;
+	transition: 2s;
+	border: 2px solid #FFF;
+}
+.services video {
+	display: block;
+	margin: 0 auto;
+}
+.services p {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+footer {
+	width: auto;
+	height: 200px;
+	background-color: #35424a;
+	text-align: center;
+}
+.brand {
+	color: #FFF;
+	font-size: 30px;
+}
+footer p {
+	color: #FFF;
+}
+.social-media i {
+ 	font-size: 40px;
+ 	margin: 0 10px;
+ }
+.fa-angle-double-up {
+	font-size: 40px;
+	float: right;
+	margin-right: 16px;
+	margin-top: 150px;
+	
+	color: #FFF;
+}
+.social-media {
+	position: relative;
+}
+.wrap {
+	position: absolute;
+	margin-left: 525px;
+}
+.social-media a {
+	color: #000;
+}
+.social-media .fa-facebook:hover {
+	transition: 1s;
+	color: #3b5999;
+}
+.social-media .fa-vk:hover {
+	transition: 1s;
+	color: #4c75a3;
+}
+.social-media .fa-instagram:hover {
+	transition: 1s;
+	color: #e4405f;
+}
+.social-media .fa-youtube:hover {
+	transition: 1s;
+	color: #cd201f;
+}
+@media screen and (min-width:320px) and (max-width:1024px) {
+.intro {
+	display: block;
+	background-size: 30% 30%;
+	margin-left: 120px;
+	margin-top: 50px;
+}
+.information p:first-child {
+	text-align: center;
+	display: block;
+}
+.information p {
+	display: block;
+	margin: 0 100px;
+}	
+.information img {
+	max-width: 200px;
+	max-height: 140px;
+}
+.icons {
+    margin: 50px 80px;
+}
+.services video {
+ 	width: 70%;
+}
+.partners img {
+	display: block;
+	margin: 100px auto;
+}
+.steps .block{
+	margin: 30px 100px;
+	position: relative;
+}
+.subscribe {
+	display: none;
+}
+.wrap {
+	margin-left: 226px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -3,6 +3,10 @@ body, html {
 	margin: 0;
 	font-family: 'Slabo 27px', serif;
 }
+.container {
+	max-width: 970px;
+	margin: 0 auto;
+}
 a {
 	text-decoration: none;
 }
@@ -12,17 +16,15 @@ li {
 header {
 	width:100%;
 	height: 666px;
-	position: relative;
 	background-image: url(../images/main-wallpaper.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
 }
-.intro {
-	position: absolute;
+.header-wrap {
+	position: relative;
 	top: 150px;
-	left: 100px;
 }
 .intro p {
 	color: #FFF;
@@ -45,18 +47,16 @@ h3 {
 .header-btn {
 	width: 150px;
 	height: 50px;
-	font-weight: 100px;
 	border:1px solid #FFF;
 	color: #FFF;
 	background-color: transparent;
 	font-size: 15px;
 	cursor: pointer;
-	position: absolute;
-	right: 100px;
+	margin-left: 90px;
 }
 .header-btn:hover {
 	background-color: #42f4e8;
-	transition: 2s;
+	transition: 1s;
 }
 .about-us {
 	text-align: center;
@@ -127,15 +127,15 @@ h3 {
 }
 .write-letter i:hover {
 	color: #4286f4;
-	transition: 2s;
+	transition: 1s;
 }
 .recieve-letter i:hover {
-	color: #ad2c18;
-	transition: 2s;
+	color: #4286f4;
+	transition: 1s;
 }
 .making-letter i:hover {
-	color: #1916af;
-	transition: 2s;
+	color: #4286f4;
+	transition: 1s;
 }
 .partners p {
 	text-align: center;
@@ -144,7 +144,7 @@ h3 {
 	font-size: 25px;
 }
 .partners {    
-    margin-top: 50px;
+    text-align: center;
 }
 .partners img {
 	margin: 0 60px;
@@ -179,7 +179,7 @@ h3 {
 .subscribe input[type="submit"]:hover {
 	background-color: #000;
 	color: #FFF;
-	transition: 2s;
+	transition: 1s;
 }
 .input-data {
 	margin-bottom: 50px;
@@ -208,7 +208,7 @@ h3 {
 .input-data input[type="submit"]:hover {
 	background-color: #000;
 	color: #FFF;
-	transition: 2s;
+	transition: 1s;
 	border: 2px solid #FFF;
 }
 .services video {
@@ -221,14 +221,16 @@ h3 {
 	text-align: center;
 }
 footer {
-	width: auto;
-	height: 200px;
+	margin: 0 auto;
 	background-color: #35424a;
 	text-align: center;
 }
 .brand {
 	color: #FFF;
 	font-size: 30px;
+	display: block;
+	padding-top: 15px;
+	margin-bottom: 20px;
 }
 footer p {
 	color: #FFF;
@@ -239,18 +241,11 @@ footer p {
  }
 .fa-angle-double-up {
 	font-size: 40px;
-	float: right;
-	margin-right: 16px;
-	margin-top: 150px;
-	
+	text-align: right;
+	display: block;	
+	margin-top: -50px;
+	margin-right: 20px;
 	color: #FFF;
-}
-.social-media {
-	position: relative;
-}
-.wrap {
-	position: absolute;
-	margin-left: 525px;
 }
 .social-media a {
 	color: #000;
@@ -271,54 +266,118 @@ footer p {
 	transition: 1s;
 	color: #cd201f;
 }
-@media screen and (min-width:320px) and (max-width:1024px) {
-.intro {
-	display: block;
-	background-size: 30% 30%;
-	margin-left: 120px;
-	margin-top: 50px;
-}
-.information p:first-child {
-	text-align: center;
-	display: block;
-}
-.information p {
-	display: block;
-	margin: 0 100px;
-}	
-.information img {
-	max-width: 200px;
-	max-height: 140px;
-}
-.icons {
-    margin: 50px 80px;
-}
-.services video {
- 	width: 70%;
-}
-.partners img {
-	display: block;
-	margin: 100px auto;
-}
-.steps .block{
-	margin: 30px 100px;
-	position: relative;
-}
-.subscribe {
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+.services {
 	display: none;
 }
-.wrap {
-	margin-left: 226px;
+header  {
+	max-width: 100%;
+}
+header h1 {
+	font-size: 50px;
+	margin: 0 auto;
+	text-align: center;
+	color: lightblue;
+}
+.intro p {
+	text-align: center;
+	color: lightblue;
+	text-indent: 0;
 }
 
-
-
-
-
-
-
-
-
-
+.header-btn {
+	display: block;
+	margin: 0 auto;
+	background-color: #000;
+	color:  #FFF;
+}
+.about-us p {
+	font-size: 17px;
+}
+.icons > div  {
+	margin: 0 auto;
+}
+#sideimg {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.information p {
+	padding: 0 20px;
+	text-align: center;
+}
+.steps > div {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.subscribe {
+	background-image: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.subscribe form {
+	width: 310px;
+	text-align: center;
+}
+.subscribe input[type="email"] {
+	width: 250px; 
+	height: 40px;
+}
+.subscribe input[type="submit"] {
+	width: 262px; 
+	height: 40px;
+	background-color: #000;
+	color: #FFF;
+}
+.partners  img {
+	width: 65%;
+	margin: 30px auto;
+}
+.input-data input[type="text"] {
+	width: 262px;
+	height: 40px;
+	margin-top: 10px;
+}
+.input-data input[type="email"] {
+	width: 262px;
+	height: 40px;
+}
+textarea { 
+	width: 262px;
+}
+.input-data input[type="submit"] {
+	width: 262px; 
+	height: 40px;
+	background-color: #000;
+	color: #FFF;
+}
+.social-media i {
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 60px;
+}
+.fa-facebook {
+	color: #3b5999;
+}
+.fa-vk {
+	color: #4c75a3;
+}
+.fa-instagram {
+	color: #e4405f;
+}	
+.fa-youtube {
+	color: #cd201f;
+}
+footer > a{
+	display: none;
+}
+.copyright {
+	margin-bottom: 0;
+	margin-top: 20px;
+}
 
 }
+

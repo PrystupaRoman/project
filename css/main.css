@@ -272,6 +272,7 @@ footer p {
 }
 header  {
 	max-width: 100%;
+	
 }
 header h1 {
 	font-size: 50px;
@@ -285,7 +286,6 @@ header h1 {
 	text-indent: 0;
 	font-size: 26px;
 }
-
 .header-btn {
 	display: block;
 	margin: 0 auto;

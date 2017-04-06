@@ -312,6 +312,13 @@ header h1 {
 	margin-top: 20px;
 	margin-bottom: 0;
 }
+.steps i {
+	color: #000;
+	font-size: 130px;
+}
+.block {
+	margin: 0 auto;
+}
 .subscribe {
 	background-image: none;
 	padding: 0;
@@ -325,6 +332,7 @@ header h1 {
 .subscribe input[type="email"] {
 	width: 250px; 
 	height: 40px;
+	border: 1px solid #888;
 }
 .subscribe input[type="submit"] {
 	width: 262px; 
@@ -340,19 +348,23 @@ header h1 {
 	width: 262px;
 	height: 40px;
 	margin-top: 10px;
+	border: 1px solid #888;
 }
 .input-data input[type="email"] {
 	width: 262px;
 	height: 40px;
+	border: 1px solid #888;
 }
 textarea { 
 	width: 262px;
+	border: 1px solid #888;
 }
 .input-data input[type="submit"] {
 	width: 262px; 
 	height: 40px;
 	background-color: #000;
 	color: #FFF;
+	border: 1px solid #888;
 }
 .social-media i {
 	display: inline-block;
